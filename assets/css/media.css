@@ -1,63 +1,40 @@
-@media (min-width:400px) and (max-width:800px){ /*primero siempre colacamos el mínimo*/
-  [class*='col-']{ /*para que las columnas ocupen el 100% del ancho cuando llega a cierto tamaño, para acceder a todas las clases*/
+@media (min-width:300px) and (max-width:767px){ /*primero siempre colacamos el mínimo*/
+  /*[class*='col-']{ /*para que las columnas ocupen el 100% del ancho cuando llega a cierto tamaño, para acceder a todas las clases*/
+  /*  width: 100%;
+  }*/
+  [class*='col-4']{
     width: 100%;
-  }
-  .indiceNav {
-    display: none;
   }
   header nav {
     display: none;
   }
-  .menu_bar {
-    display:block;
-		width:100%;
-		background:#2D3338;
+  .indiceNav{
+    margin: 0;
   }
-  .menu_bar a{
-		display:block;
-		text-decoration: none;
-    padding: 1em;
-    font-size: 2em;
-    margin-top: -0.5em;
-    color: #7D7D7F;
-    font-weight: bold;
-	}
-  .menu_bar .fa-bars{
-    margin-left: 10em;
-    color: #7D7D7F;
+  .menu{
+    text-align: right;
   }
-  .hero {
-    height: 45em;
-    background-image: url(../img/header.jpg);
-    background-size: cover;
+  .bt_menu{
+    display:inline-block;
+    text-decoration: none;
     color: #FFF;
-    -webkit-filter: brightness(50%);
-    padding: 10em;
+    font-size: 2em;
+    font-weight: bold;
   }
-  .hero .title {
-    font-size: 6em;
-    width: 4em;
-    text-align: center;
+  .bt_menu span{
+    border: 1px solid #FFF;
+    border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -webkit-border-radius:0.2em;
+    padding: 0.1em 0.4em 0.1em 0.4em;
   }
-  .hero .subtitle {
-    text-align: center;
-    font-size: 3em;
-    width: 10em;
+  .center, .right{
+    margin-top: 5%;
   }
-  img  {
-    border-radius:20em;
-    width: 20em;
-    margin-left: 10em;
-    margin-top: 0;
+  .direction{
+    width: 35%;
   }
-  .contentTitle, .contentTitleCenter {
-    margin-left: 5em;
-    margin-top: 0;
-    width: 6em;
-    font-size: 3em;
-  }
-  .cotentParagraph, .cotentParagraphCenter {
-    width: 12em;
-    margin-left: 15em;
+  .contact, .direction, .phone, .mail{
+    padding-top: 1%;
   }
 }
