@@ -44,10 +44,10 @@ nav ul li a:hover {
   background-position: center;
   padding-top: 5em;
 }
-.title{
+.title_p{
   text-align: center;
-  font-size: 5em;
   color: #000;
+  font-size: 5em;
 }
 .first_titles{
   padding-bottom: 5%;

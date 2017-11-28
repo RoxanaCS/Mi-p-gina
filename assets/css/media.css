@@ -1,4 +1,4 @@
-@media (min-width:300px) and (max-width:767px){ /*primero siempre colacamos el mínimo*/
+@media (min-width:350px) and (max-width:767px){ /*primero siempre colacamos el mínimo*/
   [class*='col-4']{
     width: 100%;
   }
@@ -24,6 +24,9 @@
     -moz-border-radius: 0.2em;
     -webkit-border-radius:0.2em;
     padding: 0.1em 0.4em 0.1em 0.4em;
+  }
+  .title_p{
+    font-size: 3em;
   }
   .center, .right{
     margin-top: 5%;
