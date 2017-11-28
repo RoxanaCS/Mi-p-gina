@@ -7,15 +7,18 @@
   }
   .indiceNav{
     margin: 0;
+    font-size: 1em;
+    margin-top: 2em;
   }
   .menu{
     text-align: right;
   }
   .bt_menu{
+    margin-top: 1em;
     display:inline-block;
     text-decoration: none;
     color: #FFF;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
   }
   .bt_menu span{
